@@ -1,0 +1,167 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0 auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h3, h2 {
+    margin: 0;
+}
+
+h2, p {
+    color: rgb(0, 0, 0, 0.7);
+}
+
+header {
+    height: 440px;
+    width: 100%;
+    background-color: #ffe2e2;
+    background-size: cover;
+}
+
+.header {
+    padding-top: 50px;
+    margin: 0 100px;
+}
+
+.profile {
+    display: block;
+    float: left;
+    padding: 125px 0 0 0;
+    line-height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    color: #68978B;
+}
+
+.name {
+    font-family: 'Damion', cursive;
+    font-size: 50px;
+    color: #99ddcc;
+    text-shadow: 0 5px #68978B;
+}
+
+.profile:hover {
+    transform: skew(0, -10deg);
+}
+
+img {
+    float: right;
+    width: 40%;
+    display: block;
+}
+
+.header-list{
+    top: 440px;
+    margin: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    background-color: rgb(255, 226, 226, 1);
+    position: absolute;
+    z-index: 50;
+}
+
+.header-list a {
+    color: #68978B;
+    padding: 0 25px;
+    line-height: 40px;
+    cursor: pointer;
+    display: block;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(255, 226, 226, 1);
+    border-radius: 0 0 16px 16px;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.2);
+}
+
+.header-list a:hover {
+    border-radius: 16px;
+    background-color: rgb(153, 221, 204, 1);
+    transition: all 0.3s;
+    color: #ffe2e2;
+}
+
+.container {
+    margin-top: 60px;
+    width: 100%;
+}
+
+#soal1, #soal2, #soal3 {
+    height: 675px;
+    background-color: #f6f6f6;
+    padding: 150px 135px;
+}
+
+#soal1 h2, #soal2 h2, #soal3 h2 {
+    text-align: justify;
+    padding-left: 15px;
+    border-left: 15px solid #bad7df;
+}
+
+#soal1 p, #soal2 p, #soal3 p{
+    margin: 30px 0;
+    text-align: justify;
+}
+
+#soal2 {
+    background-color: #bad7df;
+    padding-top: 275px;
+    padding-bottom: 275px;
+}
+
+#soal2 h2 {
+    border-left: 15px solid #ffe2e2;
+}
+
+#soal3 {
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+footer {
+    background-color: #99ddcc;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p,
+footer a {
+    display: block;
+    color: #f6f6f6;
+    margin: 0 auto;
+    cursor: pointer;
+    width: 120px;
+    padding: 2.5px;
+}
+
+.fab {
+    padding-right: 7px;
+}
